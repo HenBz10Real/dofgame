@@ -27,6 +27,7 @@ echo
   echo && sleep 1
   echo
   remove() {
+        cmd notification post -S bigtext -t 'HNXPRO+' 'Tag' 'Gaming Optimazed Programs Remove'
         settings delete global disable_window_blurs 
         settings delete global accessibility_reduce_transparency 
         settings delete global zram_enabled 
