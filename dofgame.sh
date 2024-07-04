@@ -93,6 +93,9 @@ if [ $check_vip = true ]; then
         cmd appops set com.google.android.ims RUN_ANY_IN_BACKGROUND ignore
         cmd appops set com.google.android.ims START_FOREGROUND ignore
         cmd appops set com.google.android.ims INSTANT_APP_START_FOREGROUND ignore
+        setprop debug.egl.buffcount 4
+        setprop debug.hwui.enable_bp_cache false
+        setprop debug.hwui.disable_vsync true
     }
     programs > /dev/null 2>&1
     sleep 0.1
