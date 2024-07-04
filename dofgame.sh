@@ -20,7 +20,9 @@ if [ $check_vip = true ]; then
     echo 
     echo 
     sleep 1
-    echo $BANNER
+    echo "
+█▀▄ █▀█ █▀▀ █▀▀ ▄▀█ █▀▄▀█ █▀▀   █░█ █ █▀█
+█▄▀ █▄█ █▀░ █▄█ █▀█ █░▀░█ ██▄   ▀▄▀ █ █▀▀"
     echo 
     sleep 0.2 && echo 
     printer "-Developer : @Henpeex"
