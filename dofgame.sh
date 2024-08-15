@@ -27,7 +27,7 @@ if [ $check_vip = true ]; then
     sleep 0.2 && echo 
     printer "-Developer : @Henpeex"
     sleep 0.6
-    printer "-Version : 1.6 Online "
+    printer "-Version : 1.8 Online "
     sleep 0.1
     echo
     echo 
